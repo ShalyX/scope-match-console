@@ -1,0 +1,25 @@
+{
+  "name": "scopematch-console",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "node scripts/preview.mjs",
+    "test": "tsc --ignoreConfig src/lib/validation.ts src/lib/transactions.ts --target ES2022 --module NodeNext --moduleResolution NodeNext --outDir .test-output && node --test tests/validation.test.mjs tests/rpc-policy.test.mjs"
+  },
+  "dependencies": {
+    "genlayer-js": "1.1.8",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.10"
+  }
+}

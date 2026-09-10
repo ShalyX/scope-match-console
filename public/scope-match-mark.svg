@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>ScopeMatch</title>
+  <rect width="128" height="128" rx="28" fill="#d9e779"/>
+  <path d="M28 31h36v14H42v38h22v14H28z" fill="#101210"/>
+  <path d="M100 97H64V83h22V45H64V31h36z" fill="#101210"/>
+  <path d="M55 55h18v18H55z" fill="#eb9c56"/>
+</svg>
