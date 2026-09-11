@@ -22,6 +22,17 @@ Intelligent Contract. It does not make its own overlap decision.
 The deployed contract is
 [`0x887f…3561`](https://explorer-studio.genlayer.com/address/0x887f64fd7B7Fb31851Eb7D78f5629710BaB63561).
 
+## Included Intelligent Contract source
+
+The exact deployed ScopeMatch source is included in
+[`contracts/scope_match.py`](contracts/scope_match.py), together with its
+[deployment and verification notes](contracts/README.md). Its SHA-256 is
+`2e4d2483531833929c572db11224e6cf2a7537e29f98cffd23cc905f82f79fa5`.
+
+This source defines every method the console calls and shows the
+source-fetching, normalization, structured-output validation, validator
+equivalence, and on-chain persistence path behind `assess_proposal`.
+
 ## Live verification
 
 ScopeMatch has been exercised through the same path a regular user follows:
